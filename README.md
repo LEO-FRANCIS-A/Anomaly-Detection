@@ -55,4 +55,68 @@ Detected Anomalies are:
 ## Email notification sent to the security team, including a summary and CSV attachment of anomalies.  
 ![Email Alert](https://github.com/LEO-FRANCIS-A/Anomaly-Detection/blob/main/Screenshots/email_alert.png?raw=true)
 
+# Installation & Setup
+## Clone the Repository
+    git clone https://github.com/LEO-FRANCIS-A/Anomaly-Detection.git
+    cd Anomaly-Detection
+
+## Backend Setup (Machine Learning + API)
+
+Go to backend folder:
+
+    cd backend
+
+Create a Virtual Environment
+   
+    python -m venv venv
+    source venv/bin/activate   # On Linux/Mac
+    venv\Scripts\activate      # On Windows
+
+Install Dependencies
+
+    pip install -r requirements.txt
+
+Run the ML pipeline / backend service:
+
+    python3 machine.py
+
+## Frontend & Database Setup 
+
+Go to Frontend&Database folder:
+
+    cd ../Frontend&Database
+
+Create a Virtual Environment by following the steps which is given above (if not already created) 
+Install dependencies (if not already installed in backend):
+
+    pip install -r requirements.txt
+
+Database Setup (PostgreSQL + Adminer)
+Make sure you have a PostgreSQL instance running (cloud or local).
+Connection string format:
+   
+    postgresql://<username>:<password>@<host>:<port>/<database_name>
+
+Email Alerts Setup
+Enable App Passwords for your Gmail (or use another SMTP provider).
+Add your credentials in the code:
+        
+    EMAIL_ADDRESS = "your_email@gmail.com"
+    EMAIL_PASSWORD = "your_app_password"
+    TO_EMAIL = "recipient@gmail.com"
+
+Run Streamlit app
+
+    Streamlit run frontend_database.py
+
+## Future Improvements
+
+    Add role-based access control in frontend
+    Deploy backend + frontend on Docker
+    Real-time anomaly detection (instead of batch CSV upload)
+    Multi-dataset support
+
+## License
+
+    This project is licensed under the MIT License.
 
