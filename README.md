@@ -44,5 +44,6 @@ Detected Anomalies are:
 ML Output
      
     The ML model assigns an anomaly score & flag for each login event. 
-    ![ML Output](https://raw.githubusercontent.com/LEO-FRANCIS-A/Anomaly-Detection/main/Anomaly%20ML.png)
+![ML Output](https://github.com/LEO-FRANCIS-A/Anomaly-Detection/blob/main/anomaly_ml.png?raw=true)
+
 
