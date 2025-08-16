@@ -49,3 +49,7 @@ Detected Anomalies are:
 ## Frontend Output
 ![Frontend Output](https://github.com/LEO-FRANCIS-A/Anomaly-Detection/blob/main/Anomaly%20Frontend.png?raw=true)
 
+## PostgreSQL Database View (via Adminer)
+![Adminer Database View](https://github.com/LEO-FRANCIS-A/Anomaly-Detection/blob/main/Anomaly%20Adminer.png?raw=true)
+
+
