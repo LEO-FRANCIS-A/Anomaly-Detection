@@ -3,7 +3,7 @@ This machine learning model detects and notifies the security team whenever a lo
 
 The system is built with:
 
---> Backend (ML model) → Isolation Forest (unsupervised anomaly detection).
---> Frontend (Streamlit app) → Visualizes anomalies interactively.
---> Email Notifications → Sends alerts + CSV reports of anomalies.
---> Database (Postgres) → Stores anomalies for historical tracking.
+    --> Backend (ML model) → Isolation Forest (unsupervised anomaly detection).
+    --> Frontend (Streamlit app) → Visualizes anomalies interactively.
+    --> Email Notifications → Sends alerts + CSV reports of anomalies.
+    --> Database (Postgres) → Stores anomalies for historical tracking.
