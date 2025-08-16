@@ -41,9 +41,11 @@ Detected Anomalies are:
     Altair (visualizations)
 
 # Output Screenshots
-ML Output
+## ML Output
      
     The ML model assigns an anomaly score & flag for each login event. 
 ![ML Output](https://github.com/LEO-FRANCIS-A/Anomaly-Detection/blob/main/anomaly_ml.png?raw=true)
 
+## Frontend Output
+![Frontend Output](https://github.com/LEO-FRANCIS-A/Anomaly-Detection/blob/main/Anomaly%20Frontend.png?raw=true)
 
