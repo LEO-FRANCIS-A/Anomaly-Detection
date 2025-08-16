@@ -29,6 +29,6 @@ Detected Anomalies are:
 
     Python (Pandas, Scikit-learn, SQLAlchemy)
     Streamlit (frontend dashboard)
-    PostgreSQL (cloud-hosted on Render)
+    PostgreSQL + Adminer – Database and management
     SMTP (Gmail for email alerts)
     Altair (visualizations)
