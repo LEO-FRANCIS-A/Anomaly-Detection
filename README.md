@@ -53,6 +53,6 @@ Detected Anomalies are:
 ![Adminer Database View](https://github.com/LEO-FRANCIS-A/Anomaly-Detection/blob/main/Screenshots/Anomaly%20Adminer.png?raw=true)
 
 ## Email notification sent to the security team, including a summary and CSV attachment of anomalies.  
-![Email Alert](https://github.com/LEO-FRANCIS-A/Anomaly-Detection/blob/main/email_alert.png?raw=true)
+![Email Alert](https://github.com/LEO-FRANCIS-A/Anomaly-Detection/blob/main/Screenshots/email_alert.png?raw=true)
 
 
