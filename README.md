@@ -47,7 +47,7 @@ Detected Anomalies are:
 ![ML Output](https://github.com/LEO-FRANCIS-A/Anomaly-Detection/blob/main/Screenshots/anomaly_ml.png?raw=true)
 
 ## Frontend Output
-![Frontend Output](https://github.com/LEO-FRANCIS-A/Anomaly-Detection/blob/main/Anomaly%20Frontend.png?raw=true)
+![Frontend Output](https://github.com/LEO-FRANCIS-A/Anomaly-Detection/blob/main/Screenshots/Anomaly%20Frontend.png?raw=true)
 
 ## PostgreSQL Database View (via Adminer)
 ![Adminer Database View](https://github.com/LEO-FRANCIS-A/Anomaly-Detection/blob/main/Screenshots/Anomaly%20Adminer.png?raw=true)
