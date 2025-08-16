@@ -7,3 +7,20 @@ The system is built with:
     --> Frontend (Streamlit app) → Visualizes anomalies interactively.
     --> Email Notifications → Sends alerts + CSV reports of anomalies.
     --> Database (Postgres) → Stores anomalies for historical tracking.
+
+# Workflow
+
+User Login Events
+           
+    CSV input contains login records (IP address, timestamp, location, etc.).
+
+Anomaly Detection
+
+    The ML model (IsolationForest) learns normal login patterns.
+    Assigns each login an anomaly score and an anomaly flag (0 = normal, 1 = anomaly).
+
+Detected Anomalies are:
+
+    Stored in PostgreSQL for persistence
+    Emailed to security team (HTML + CSV report)
+    Displayed in Streamlit with filtering & anomaly highlighting
