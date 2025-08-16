@@ -8,6 +8,13 @@ The system is built with:
     --> Email Notifications → Sends alerts + CSV reports of anomalies.
     --> Database (Postgres) → Stores anomalies for historical tracking.
 
+# Features 
+    Upload login activity CSV and detect anomalies in real-time.
+    Isolation Forest assigns both anomaly score and anomaly flag.
+    Interactive Streamlit dashboard for visualization.
+    Anomalies automatically saved to PostgreSQL (managed via Adminer).
+    Automated email alerts with attached CSV of anomalies.
+
 # Workflow
 
 User Login Events
