@@ -39,3 +39,8 @@ Detected Anomalies are:
     PostgreSQL + Adminer – Database and management
     SMTP (Gmail for email alerts)
     Altair (visualizations)
+
+# Output Screenshots
+ML Output
+     
+    The ML model assigns an anomaly score & flag for each login event. 
