@@ -24,3 +24,11 @@ Detected Anomalies are:
     Stored in PostgreSQL for persistence
     Emailed to security team (HTML + CSV report)
     Displayed in Streamlit with filtering & anomaly highlighting
+
+# Tech Stack
+
+    Python (Pandas, Scikit-learn, SQLAlchemy)
+    Streamlit (frontend dashboard)
+    PostgreSQL (cloud-hosted on Render)
+    SMTP (Gmail for email alerts)
+    Altair (visualizations)
