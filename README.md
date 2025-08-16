@@ -1,5 +1,5 @@
 # Anomaly-Detection
-This machine learning model detects and notifies the security team whenever a login activity significantly deviates from the user’s historical behavior. Unlike the risk score model, this system does not block access — it only sends alerts, ensuring that legitimate but unusual actions (e.g., emergencies, travel) are still permitted.
+This project uses machine learning to detect unusual login activities based on user behavior patterns. Instead of blocking access, the system sends real-time alerts to the security team — ensuring legitimate but uncommon actions (e.g., travel, emergencies) are still permitted while being closely monitored.
 
 The system is built with:
 
